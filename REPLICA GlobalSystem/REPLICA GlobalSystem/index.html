@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--MENU VERTICAL-->
+    <div class="barra_v">
+        <div class="menu-v">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="contenedor_titulo">
+            <img clas="logo-chef" src="./imagenes/chef.png" alt="">
+            <h1 class="title">
+                Columbus
+            </h1>
+            <p class="slogan">
+                Bakery Wholesale
+            </p>
+        </div>
+
+
+        <div class="perfil">
+            <div class="name">
+                <h2>SELENIA SANCHEZ</h2>
+                <p>POS</p>
+            </div>
+
+            <div class="foto">
+                <img src="./Imagenes/perfil.png" alt="">
+            </div>
+
+
+            <div class="options">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- BODY-GIRD : CARRITO / GALERIA / METODOS DE PAGO -->
+
+
+    <!--carrito-->
+    <div class="body-carrito">
+
+        <div class="galeria-container">
+            <div class="carrito">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col">CANTIDAD</th>
+                            <th scope="col">PRODUCTO</th>
+                            <th scope="col">TAX</th>
+                            <th scope="col">TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"> <span id="cantidad-1"></span> <i id="plus-1" class="fas fa-plus"></i> <i class="fas fa-minus" id="minus-1"></i></th>
+                            <td id="coca">COCA-COLA</td>
+                            <td>3.5 </td>
+                            <td>3.5</td>
+                            <td> <i class="far fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span id="cantidad-2"></span> <i id="plus-2" class="fas fa-plus"></i> <i class="fas fa-minus" id="minus-2"></i></th>
+                            <td id="manzana">MANZANA POSTOBON</td>
+                            <td>3.5</td>
+                            <td>3.5</td>
+                            <td> <i class="far fa-trash-alt"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span id="cantidad-3"></span><i id="plus-3" class="fas fa-plus"></i> <i class="fas fa-minus" id="minus-3"></i></th>
+                            <td id="naranja">NARANJA POSTOBON</td>
+                            <td>3.5</td>
+                            <td>3.5</td>
+                            <td><i class="far fa-trash-alt"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="total">
+                    <p> TOTAL </p>
+                    <P class="resultado"> 10.5 </P>
+                </div>
+
+            </div>
+
+
+
+            <!--- cupone-->
+
+
+            <div class="container-cupones">
+                <div class="img-cupones"><img src="./imagenes/id.png" alt="">
+                    <p>DESCUENTO EMPLEADO</p>
+                </div>
+
+                <div class="img-cupones"><img src="./imagenes/contrato.png" alt="">
+                    <P>VISTA <br> CLIENTE</P>
+                </div>
+            </div>
+
+
+
+            <div class="caja-cupon">
+                <div class="promocion">
+
+                    <img src="./imagenes/cupon1.png" alt="">
+                    <p> CODIGA PROMOCIONAL </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!--galeria-->
+
+        <div class="galeria-container">
+            <div class="galeria">
+                <div class="header-galeria ">
+                    <div class="menu">BEBIDAS</div>
+                    <div class="menu">COMIDAS</div>
+                    <div class="menu">REPOSTERIA Y PANADERIA</div>
+                    <div class="menu">REFRIGERADOS</div>
+                    <div class="menu options-menu"><i class="fas fa-ellipsis-h"></i></div>
+                </div>
+
+                <div class="productos">
+                    <div><img class="img-producto" src="./imagenes/cocacola-lata.jpg" alt="">
+                        <h4 class="tipo-bebida">COCA-COLA <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/cocacola-zero.jpg" alt="">
+                        <h4 class="tipo-bebida">COCA-COLA ZERO <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/postobon-manzana-lata.jpg" alt="">
+                        <h4 class="tipo-bebida">MANZANA POST <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/agua-500ml.jpg" alt="">
+                        <h4 class="tipo-bebida">AGUA NATURAL <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/naranja-postobon.jpg" alt="">
+                        <h4 class="tipo-bebida">NARANJA POST. <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/tropical-ecuador-botella.jpg" alt="">
+                        <h4 class="tipo-bebida">TROPICAL 2L <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/postobon-pina.jpg" alt="">
+                        <h4 class="tipo-bebida">PIÑA POSTOBON <br>
+                            <p>3.5cad</p>
+                        </h4>
+                    </div>
+                    <div><img class="img-producto" src="./imagenes/back.png" alt="">
+                        <h3 class="tipo-bebida"></h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-pago">
+                <div class="metodos-pago">
+                    <div class="metodo"><img src="./imagenes/pngwing.com.png" alt=""></div>
+                    <div class="metodo"><img src="./imagenes/visa.png" alt=""></div>
+                    <div class="metodo"><img src="./imagenes/mastercard.png" alt=""></div>
+                    <div class="metodo"><img src="./imagenes/uber-eats.jpg" alt=""></div>
+                    <div class="metodo"><img src="./imagenes/debito.png" alt=""></div>
+                    <div class="metodo"><img src="./imagenes/suma.png.crdownload" alt=""></div>
+                    <!-- <div class="metodo"></div>
+                <div class="metodo"></div> -->
+                </div>
+
+                <div id="pagar" class="pagar">
+                    <p> PAGAR </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/b00c3cd001.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+    $(function(){
+
+        var cantidad_1 = $("#cantidad-1");
+        var cantidad_2 = $("#cantidad-2");
+        var cantidad_3 = $("#cantidad-3");
+        cantidad_1.text("1")
+        cantidad_2.text("1")
+        cantidad_3.text("1")
+        
+        $("#plus-1").click(function(){
+            cantidad_1.text(parseInt(cantidad_1.text()) + 1)
+        })
+        $("#plus-2").click(function(){
+            cantidad_2.text(parseInt(cantidad_2.text()) + 1)
+        })
+        $("#plus-3").click(function(){
+            cantidad_3.text(parseInt(cantidad_3.text()) + 1)
+        })
+
+        $("#minus-1").click(function(){
+            cantidad_1.text(parseInt(cantidad_1.text()) - 1)
+        })
+        $("#minus-2").click(function(){
+            cantidad_2.text(parseInt(cantidad_2.text()) - 1)
+        })
+        $("#minus-3").click(function(){
+            cantidad_3.text(parseInt(cantidad_3.text()) - 1)
+        })
+
+        var pagar = $("#pagar")
+        var coca = $("#coca").text()
+        var manzana = $("#manzana").text()
+        var naranja = $("#naranja").text()
+
+
+        pagar.click(function(){
+            alert(cantidad_1.text() + " - " + coca + " , " + cantidad_2.text() + " - " + manzana + " , " + cantidad_3.text() + " - " + naranja)
+        })
+        
+    })
+</script>
